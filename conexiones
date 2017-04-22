@@ -1,1 +1,7 @@
+#!/bin/bash
+# 
+# Siple script para ver las conexiones activodas para puerto 80
+# (c) 2017 hackingyseguridad.com
+#
+#
 netstat -plan|grep :80 | awk {'print $5'} | cut -d: -f 1 | sort | uniq -c | sort -n
