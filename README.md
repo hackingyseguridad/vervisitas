@@ -4,6 +4,8 @@
 # 
 # Siple script para ver el log de visitas http de apache2
 #
+muestra la IP y el tipo de peticion http realizada
+#
 #
 sudo tail -10 /var/log/apache2/access.log
 #
