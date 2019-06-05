@@ -1,4 +1,5 @@
 # vervisitas
+<img style="float:left" alt="vervisitas logo" src="https://github.com/hackingyseguridad/vervisitas/blob/master/vervisitas.png">
 #!/bin/bash
 # 
 # Siple script para ver el log de visitas http de apache2
