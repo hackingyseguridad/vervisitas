@@ -9,5 +9,9 @@ muestra la IP y el tipo de peticion http realizada
 #
 sudo tail -10 /var/log/apache2/access.log
 #
+Geolocalizar IP:
+#
+http://ip-api.com/#9.9.9.9
+#
 # www.hackingyseguridad.com
 #
