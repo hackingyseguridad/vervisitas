@@ -1,0 +1,7 @@
+#!/bin/bash
+#
+# Siple script para ver el log de visitas http para apache2 en tiempo real
+# (c) 2022 hackingyseguridad.com
+#
+#
+sudo watch tail /var/log/apache2/access.log
